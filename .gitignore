@@ -1,0 +1,51 @@
+# Compiled objects and libraries
+*.o
+*.so
+*.pyc
+*.pyo
+*.a
+*.jar
+
+# Build directories
+build/
+
+# Python
+__pycache__/
+*.egg-info/
+*.egg
+
+# Temporary and backup files
+*.bak
+*.bk
+*.tmp
+*~
+*.old
+*.v1.0bk
+*.v1.3bk
+
+# Data files (large)
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.tbi
+*.bai
+*.bed
+*.bed.sort.merge
+*.sam
+*.bam
+*.cram
+*.rds
+*.tsv
+*.fq
+*.fq.gz
+*.fastq
+*.tar.gz
+
+# Config generated files
+config.log
+config.status
+autom4te.cache/
+stamp-h*
+
+# Cython generated C files
+bw4cModule.c
