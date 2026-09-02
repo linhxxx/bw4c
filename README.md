@@ -93,3 +93,7 @@ java -Djava.io.tmpdir=tmp -jar -Xmx6g -Xms6g -Xss256k \
 
 - Slightly different clip behavior at both ends of reads (fewer S clips) compared to standard BWA. This is related to bw4's penalty parameter settings and is kept as-is for consistency with the original bw4 parameters.
 - If `samtools sort` fails to allocate memory, reduce or disable the sort thread parameter.
+
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE).
